@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "lemonilo",
+    "slug": "lemonilo",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splashNew.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "Test React Native with GraphQL and Type Script",
+    "android": {
+      "package": "com.joinprint20.lemonilo"
+    }
+  }
+}
