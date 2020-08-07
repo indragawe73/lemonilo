@@ -11,10 +11,12 @@ function GrabScreen({ route, navigation }) {
   
   return (
     <View style={styles.container}>
-      <Image source={require('./../assets/images/grab.png')}
-        style={{width: 190 }}
+      <Image source={require('./../assets/images/mie-goreng.png')}
+        style={styles.imageSize}
         resizeMode="contain"
       />
+      <Text style={styles.title}>[Pre Order] Lemonilo Mie Instan Rasa Mie Goreng</Text>
+      <Text style={styles.textList}>Mi Instan Lemonilo bisa dikonsumsi seluruh anggota keluarga, dibuat tanpa melalui proses penggorengan. Mi Instan Lemonilo juga rendah gluten karena dibuat dengan tepung tapioka hasil olahan petani Indonesia.</Text>
     </View>
   );
 }

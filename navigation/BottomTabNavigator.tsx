@@ -21,24 +21,24 @@ export default function BottomTabNavigator() {
       initialRouteName="Grab"
       tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
       <BottomTab.Screen
-        name="Grab"
+        name="Mie Goreng"
         component={GrabScreen}
         options={{
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-home" color={color} />,
         }}
       />
       <BottomTab.Screen
-        name="Gojek"
+        name="Ayam Bawang"
         component={GojekScreen}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-home" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-card" color={color} />,
         }}
       />
       <BottomTab.Screen
-        name="Traveloka"
+        name="Mie Kari"
         component={TravelokaScreen}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-home" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-cash" color={color} />,
         }}
       />
     </BottomTab.Navigator>
